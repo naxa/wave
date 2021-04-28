@@ -1,3 +1,5 @@
+set(src ${PROJECT_SOURCE_DIR}/external/wave/src)
+
 add_library(wave
   ${src}/wave/header/data_header.h
   ${src}/wave/header/data_header.cc
