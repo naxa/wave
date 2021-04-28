@@ -1,4 +1,6 @@
-set(src ${PROJECT_SOURCE_DIR}/external/wave/src)
+if (NOT DEFINED src)
+    set(src ${PROJECT_SOURCE_DIR}/external/wave/src)
+endif()
 
 add_library(wave
   ${src}/wave/header/data_header.h
